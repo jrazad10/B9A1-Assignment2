@@ -162,7 +162,7 @@
         right: -3px;
         flex-direction: column;
         width: 300px;
-        height: 270px;
+        height: 250px;
         flex-shrink: 0;
     }
 
@@ -173,7 +173,7 @@
         right: -3px;
         flex-direction: column;
         width: 300px;
-        height: 270px;
+        height: 250px;
         flex-shrink: 0;
     }
 
@@ -183,6 +183,30 @@
         top: 200px;
         left: -165px;
         width: 300px;
-        height: 270px;
+        height: 250px;
+    }
+
+    /* own container  */
+    .own-container{
+        position: relative;
+        top: 150px;
+        right: 100px;
+    }
+
+    .own-container > p{
+        position: relative;
+        right: 60px;
+        width: 300px;
+    }
+
+    .hotel{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .hotel .hotel-card{
+        position: relative;
+        top: -100px;
+        left: -70px;
     }
 }
