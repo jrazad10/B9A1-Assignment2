@@ -189,33 +189,70 @@ body {
 }
 
 /* own section  */
-.own{
+.own {
     margin-top: 100px;
 }
-.own-container{
+
+.own-container {
     text-align: center;
 }
 
-.hotel{
+.hotel {
     display: flex;
     justify-content: space-evenly;
 }
 
-.hotel-card{
-        padding: 15px;
-        width: 310px;
-        height: 600px;
-        flex-shrink: 0;
-        margin-top: 100px;
-        border: #fff;
-        border-radius: 5px;
-        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-    
+.hotel-card {
+    padding: 15px;
+    width: 310px;
+    height: 600px;
+    flex-shrink: 0;
+    margin-top: 100px;
+    border: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+
 }
 
-.hotel-card > img{
+.hotel-card>img {
     width: 300px;
     height: 400px;
 }
 
+/* newsletter starts  */
 
+.newsletter-container {
+    margin-top: 100px;
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+
+}
+
+
+.newsletter-info {
+    position: relative;
+    left: 100px;
+    width: 500px;
+    height: 320px;
+    padding: 50px;
+    border: 2px solid #FF5400;
+    border-radius: 16px;
+}
+.newsletter-image{
+    position: relative;
+    left: 200px;
+}
+.discount-btn {
+    position: relative;
+    top: -171px;
+    left: 341px;
+    width: 324px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    flex-shrink: 0;
+    border-radius: 16px;
+    background: #FF5400;
+    border: none;
+    color: #fff;
+}
