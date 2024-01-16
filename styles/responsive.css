@@ -95,7 +95,7 @@
     .destination {
         position: relative;
         top: -250px;
-        right: 100px;
+        right: 90px;
     }
 
     .destination-container {
@@ -150,8 +150,8 @@
         position: relative;
         right: 170px;
         flex-direction: column;
-        width: 335px;
-        height: 289px;
+        width: 200px;
+        height: 250px;
         flex-shrink: 0;
     }
 
@@ -161,8 +161,8 @@
         top: 20px;
         right: -3px;
         flex-direction: column;
-        width: 335px;
-        height: 289px;
+        width: 300px;
+        height: 270px;
         flex-shrink: 0;
     }
 
@@ -172,8 +172,8 @@
         top: 20px;
         right: -3px;
         flex-direction: column;
-        width: 335px;
-        height: 289px;
+        width: 300px;
+        height: 270px;
         flex-shrink: 0;
     }
 
@@ -182,7 +182,7 @@
         padding: 10px;
         top: 200px;
         left: -165px;
-        width: 335px;
-        height: 289px;
+        width: 300px;
+        height: 270px;
     }
 }
