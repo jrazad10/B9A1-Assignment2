@@ -239,10 +239,12 @@ body {
     border: 2px solid #FF5400;
     border-radius: 16px;
 }
-.newsletter-image{
+
+.newsletter-image {
     position: relative;
     left: 200px;
 }
+
 .discount-btn {
     position: relative;
     top: -171px;
@@ -255,4 +257,50 @@ body {
     background: #FF5400;
     border: none;
     color: #fff;
+}
+
+/* footer design  */
+
+.footer-container {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    width: 1500px;
+    height: 502px;
+    flex-shrink: 0;
+    background: rgba(19, 19, 24, 0.05);
+}
+.footer-details{
+    display: flex;
+    position:relative;
+    left: 600px;
+    top: 100px;
+}
+.footer-logo p{
+    position: relative;
+    top: 120px;
+    left: 300px;
+    width: 769px;
+}
+
+.footer-icons img{
+    position: relative;
+    height: 30px;
+    margin: 10px;
+    top: 140px;
+    right: 40px;
+}
+
+.hr{
+    position: relative;
+    top: 200px;
+    width: 872px;
+height: 1px;
+background: rgba(19, 19, 24, 0.10);
+}
+
+.last{
+    position: relative;
+    top: 220px;
+    right: 40px;
 }
