@@ -89,4 +89,100 @@
         height: 342px;
         flex-shrink: 0;
     }
+
+    /* destination  */
+
+    .destination {
+        position: relative;
+        top: -250px;
+        right: 100px;
+    }
+
+    .destination-container {
+        text-align: center;
+    }
+
+    .destination-details p {
+        width: 309px;
+        position: relative;
+        right: 50px;
+    }
+
+    .row1 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .maldives {
+        position: relative;
+        color: black;
+        top: 5px;
+        left: 50px;
+    }
+
+    .row1 img {
+        position: relative;
+        right: 80px;
+        width: 335px;
+        height: 176px;
+        flex-shrink: 10;
+    }
+
+    /* why choose us section  */
+
+    .choose-details {
+        position: relative;
+        right: 150px;
+        bottom: 180px;
+        text-align: center;
+    }
+
+    .choose-details p {
+        width: 309px;
+    }
+
+    .choose-details .popular-title {
+        position: relative;
+        left: 50px;
+    }
+
+    .card {
+        position: relative;
+        right: 170px;
+        flex-direction: column;
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+
+    .handpicked {
+        padding: 10px;
+        position: relative;
+        top: 20px;
+        right: -3px;
+        flex-direction: column;
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+
+    .world {
+        padding: 10px;
+        position: relative;
+        top: 20px;
+        right: -3px;
+        flex-direction: column;
+        width: 335px;
+        height: 289px;
+        flex-shrink: 0;
+    }
+
+    .best-price {
+        position: relative;
+        padding: 10px;
+        top: 200px;
+        left: -165px;
+        width: 335px;
+        height: 289px;
+    }
 }
