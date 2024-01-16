@@ -125,26 +125,19 @@ body {
 }
 
 .destination-grid {
-    margin-top: 50px;
     text-align: center;
     width: 100%;
     grid-column-gap: 10px;
     grid-row-gap: 10px;
 }
 
-.grid1 {
-    justify-content: space-around;
+.row1{
+    display: flex;
+    justify-content: center;
     gap: 20px;
 }
-
-.grid2 {
-    justify-content: space-around;
-    gap: 20px;
-    width: 100%;
-}
-
-.grid3 {
-    justify-content: space-around;
-    gap: 20px;
-    width: 100%;
+.maldives{
+    position: relative;
+    top: 200px;
+    color: #fff;
 }
