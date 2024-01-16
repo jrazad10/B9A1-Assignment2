@@ -61,7 +61,7 @@ body {
 }
 
 .explore-container {
-    padding-top: 2px;
+    padding-top: 1px;
     text-align: center;
     width: 1170px;
     height: 500px;
@@ -187,3 +187,35 @@ body {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
+
+/* own section  */
+.own{
+    margin-top: 100px;
+}
+.own-container{
+    text-align: center;
+}
+
+.hotel{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.hotel-card{
+        padding: 15px;
+        width: 310px;
+        height: 600px;
+        flex-shrink: 0;
+        margin-top: 100px;
+        border: #fff;
+        border-radius: 5px;
+        box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+    
+}
+
+.hotel-card > img{
+    width: 300px;
+    height: 400px;
+}
+
+
