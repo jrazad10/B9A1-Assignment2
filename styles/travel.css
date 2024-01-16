@@ -55,7 +55,7 @@ body {
     flex-shrink: 0;
 }
 
-.explore{
+.explore {
     margin-left: 150px;
     margin-top: 100px;
 }
@@ -131,19 +131,59 @@ body {
     grid-row-gap: 10px;
 }
 
-.row1{
+.row1 {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
-.maldives{
+
+.maldives {
     position: relative;
     top: 200px;
     color: #fff;
 }
 
 /* choose design  */
-.choose-details{
+.choose-details {
     text-align: center;
 }
 
+
+.card {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.handpicked {
+    padding: 50px;
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.world {
+    padding: 50px;
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.best-price {
+    position: relative;
+    left: 400px;
+    margin-top: 20px;
+    padding: 50px;
+    width: 573px;
+    height: 200px;
+    flex-shrink: 0;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
