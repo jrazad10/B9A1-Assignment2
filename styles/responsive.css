@@ -187,26 +187,49 @@
     }
 
     /* own container  */
-    .own-container{
+    .own-container {
         position: relative;
         top: 150px;
         right: 100px;
     }
 
-    .own-container > p{
+    .own-container>p {
         position: relative;
         right: 60px;
         width: 300px;
     }
 
-    .hotel{
+    .hotel {
         display: flex;
         flex-direction: column;
-        
+
     }
-    .hotel .hotel-card{
+
+    .hotel .hotel-card {
         position: relative;
         top: -100px;
         left: -70px;
+    }
+
+    /* newsletter design */
+    .newsletter-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .newsletter-info {
+        position: relative;
+        left: -170px;
+        width: 240px;
+        height: 250px;
+    }
+
+    .newsletter-image img {
+        position: relative;
+        top: 20px;
+        left: -370px;
+        width: 345px;
+        height: 300px;
+        flex-shrink: 0;
     }
 }
