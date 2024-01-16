@@ -224,12 +224,23 @@
         height: 250px;
     }
 
-    .newsletter-image img {
+    .nImage {
         position: relative;
         top: 20px;
         left: -370px;
-        width: 345px;
+        width: 340px;
         height: 300px;
         flex-shrink: 0;
     }
+
+    .newsletter-image .discount-btn{
+        position: relative;
+        left: -250px;
+        width: 214.023px;
+        height: 79.268px;
+
+    }
+
+    /* footer design  */
+    
 }
